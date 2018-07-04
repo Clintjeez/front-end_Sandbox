@@ -1,0 +1,59 @@
+body{
+  margin:0;
+  padding: 0;
+  Background:#212121;
+}
+
+.skewedBox{
+  background: rgb(255, 87, 34);
+  padding: 100px 0;
+  color: #fff;
+  transform: skew(0deg, -10deg) translateY(-120px);
+  -webkit-box-shadow: 0px 0px 62px -2px rgb(255, 87, 34);
+-moz-box-shadow: 0px 0px 62px -2px rgb(255, 87, 34);
+box-shadow: 0px 0px 62px -2px rgb(255, 87, 34);
+}
+
+
+.container{
+  padding: 150px 200px;
+  transform: skew(0deg, 10deg);
+  font-family: arial;
+  
+}
+
+.container h1{
+  margin: 0;
+  padding: 20px 0;
+  font-size: 3em;
+}
+
+.container p{
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+  width: 80%;
+
+}
+
+.sec2{
+  padding:0 200px 150px;
+  color: #fff;
+  font-family: arial;
+  text-align: right;
+}
+
+.sec2 h1{
+  margin: 0;
+  padding: 20px 0;
+  font-size: 3em;
+}
+
+.sec2 p{
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+  width: 100%;
+}
